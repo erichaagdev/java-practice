@@ -11,7 +11,7 @@ import java.util.stream.Stream;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 
-class LeetCode3 {
+class LeetCode0003 {
 
     int lengthOfLongestSubstring(String s) {
         if (s.length() < 2) return s.length();
